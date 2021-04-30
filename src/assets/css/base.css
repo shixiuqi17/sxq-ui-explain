@@ -1,0 +1,47 @@
+html::-webkit-scrollbar {
+  width: 7px !important;
+  height: 7px !important;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #b6b6b6 !important;
+}
+
+html,
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC',
+    'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial,
+    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+code {
+  text-align: left;
+  padding: 10px 0 20px !important;
+  line-height: 1.8;
+  font-size: 15px;
+  font-family: Menlo, Monaco, Consolas, Courier, monospace;
+}
+
+pre {
+  margin: 0 !important;
+}
+
+h2 {
+  font-weight: 400;
+  color: #1f2f3d;
+}
+
+.title-text {
+  font-size: 14px;
+  color: #5e6d82;
+  line-height: 1.5em;
+}
+
+.input-number-mini {
+  line-height: 28px !important;
+}
+
+.sxq-input-number.input-number-small .input-button-minus,
+.sxq-input-number.input-number-small .input-button-add {
+  top: 1px !important;
+}
