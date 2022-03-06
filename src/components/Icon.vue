@@ -139,10 +139,10 @@ export default {
     i {
       font-size: 32px;
       color: #606266;
-      transition: color 0.3s linear;
+      transition: all 0.3s linear;
     }
     p {
-      transition: color 0.3s linear;
+      transition: all 0.3s linear;
     }
   }
 }

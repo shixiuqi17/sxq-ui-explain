@@ -91,7 +91,7 @@ export default {
     border-top: 1px solid #eaeefb;
     overflow: hidden;
     height: 0;
-    transition: height 0.3s;
+    transition: height 0.4s;
     .desc {
       padding: 20px;
       box-sizing: border-box;

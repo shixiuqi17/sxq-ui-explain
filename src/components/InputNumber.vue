@@ -49,7 +49,7 @@
       title="步数"
       subtitle="允许定义递增递减的步数控制"
       desc="设置step属性可以控制步长，接受一个Number"
-      height="360"
+      height="370"
     >
       <template slot="source">
         <sxq-input-number v-model="num2" :step="2"></sxq-input-number>
@@ -72,8 +72,8 @@
         <sxq-input-number v-model="num6" size="mini"></sxq-input-number>
       </template>
       <template slot="code">
-        <code class="html">{{ code.step.html }}</code>
-        <code class="javascript">{{ code.step.javascript }}</code>
+        <code class="html">{{ code.size.html }}</code>
+        <code class="javascript">{{ code.size.javascript }}</code>
       </template>
     </code-view>
     <attr-table :data="api"></attr-table>
@@ -125,9 +125,8 @@ export default {
       }
     } `
         },
-        step: {
-          html: `
-    <sxq-input-number v-model="num1"></sxq-input-number>
+        size: {
+          html: `    <sxq-input-number v-model="num1"></sxq-input-number>
     <sxq-input-number v-model="num2" size="medium"></sxq-input-number>
     <sxq-input-number v-model="num3" size="small"></sxq-input-number>
     <sxq-input-number v-model="num4" size="mini"></sxq-input-number>`,
@@ -138,6 +137,17 @@ export default {
           num2: 0,
           num3: 0,
           num4: 0,
+        }
+      }
+    } `
+        },
+        step: {
+          html:
+            '    <sxq-input-number v-model="num" :step="2"></sxq-input-number>',
+          javascript: `    export default {
+      data () {
+        return {
+          num: 0,
         }
       }
     } `

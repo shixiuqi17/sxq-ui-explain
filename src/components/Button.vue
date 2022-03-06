@@ -4,7 +4,7 @@
     <p class="title-text">常用的操作按钮</p>
     <code-view
       title="基础用法"
-      subtitle="基础的按钮用。"
+      subtitle="基础的按钮用法"
       desc="使用type属性来定义 Button 的样式"
       height="310"
     >
