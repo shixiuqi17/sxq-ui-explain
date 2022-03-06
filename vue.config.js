@@ -1,4 +1,6 @@
 module.exports = {
-  publicPath: '/sxq-ui-explain',
-  productionSourceMap: false
+  publicPath: '/sxq-ui-explain/',
+  outputDir: 'dist',
+  assetsDir: 'static',
+  indexPath: 'index.html'
 }
